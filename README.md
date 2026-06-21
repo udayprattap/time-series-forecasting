@@ -2,7 +2,7 @@
 
 A comprehensive time series forecasting project leveraging both statistical and machine learning approaches to predict future values. This project demonstrates the integration of traditional statistical methods with modern machine learning algorithms for robust forecasting capabilities.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements a hybrid forecasting system that combines:
 - **Statistical Models**: StatsForecast for baseline predictions
@@ -10,7 +10,7 @@ This project implements a hybrid forecasting system that combines:
 
 The models are trained and evaluated using time-based data splitting and advanced feature engineering techniques to ensure temporal integrity and prevent data leakage.
 
-## 🚀 Features
+## Features
 
 - **Multiple Model Architecture**: Implementation of 5 different forecasting models
   - StatsForecast (Statistical baseline)
@@ -74,14 +74,14 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 📈 Model Performance
+## Model Performance
 
 The project evaluates all models using three key metrics:
 - **MSE (Mean Squared Error)**: Measures average squared difference between predictions and actual values
 - **MAE (Mean Absolute Error)**: Measures average absolute difference
 - **R² Score**: Indicates the proportion of variance explained by the model
 
-## 🔬 Methodology
+## Methodology
 
 1. **Data Preprocessing**: Clean and prepare time series data
 2. **Feature Engineering**: Create lag features and rolling statistics
@@ -90,7 +90,7 @@ The project evaluates all models using three key metrics:
 5. **Evaluation**: Compare models using MSE, MAE, and R² metrics
 6. **Model Selection**: Identify the best performing model
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 time-series-forecasting/
@@ -100,20 +100,20 @@ time-series-forecasting/
 └── notebooks/          # Kaggle notebooks (if added)
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
+## License
 
 This project is available for educational and research purposes.
 
-## 👤 Author
+## Author
 
 **Uday Prattap**
 - GitHub: [@udayprattap](https://github.com/udayprattap)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Developed as part of machine learning coursework
 - Built on Kaggle platform for cinema audience forecasting competition
