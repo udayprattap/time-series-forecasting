@@ -33,7 +33,7 @@ The models are trained and evaluated using time-based data splitting and advance
   - Mean Absolute Error (MAE)
   - R² Score for model comparison
 
-## 📊 Technologies Used
+## Technologies Used
 
 - **Data Processing**: `pandas`, `numpy`
 - **Visualization**: `matplotlib`
@@ -41,7 +41,7 @@ The models are trained and evaluated using time-based data splitting and advance
 - **Machine Learning**: `scikit-learn`, `xgboost`
 - **Development Platform**: Kaggle Notebooks
 
-## 📋 Requirements
+## Requirements
 
 See `requirements.txt` for complete list of dependencies.
 
@@ -55,7 +55,7 @@ scikit-learn
 xgboost
 ```
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
 ```bash
